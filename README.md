@@ -1,21 +1,48 @@
-# StockControl
+# Projeto de Controle de Estoque
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
+## Descrição
 
-## Development server
+Este projeto é uma solução de controle de estoque que visa otimizar a gestão de inventário por meio de uma arquitetura moderna e práticas de desenvolvimento eficientes. O sistema integra diversas tecnologias e estratégias para garantir um desempenho robusto e uma experiência de usuário fluida.
 
-Execute `ng serve` to start a development server. Navigate to `http://localhost:4200/`. The application will automatically reload if you modify any of the source files.
+## Tecnologias Utilizadas
 
-## Code scaffolding
+- **Node.js**: Para o backend e consumo eficiente de APIs.
+- **Angular**: Framework para a construção do frontend.
+- **PrimeNG e PrimeFlex**: Bibliotecas para componentes e estilização.
+- **PrimeChart/ChartJs**: Para a criação de gráficos e visualizações de dados.
+- **Prisma**: Ferramenta ORM para a persistência de dados.
+- **Formulários Reativos**: Para gerenciar formulários de forma eficiente.
+- **Estratégias de Memória**: Implementação de medidas para evitar problemas de Memory Leak.
 
-The command `ng generate component component-name` is used to create a new component. Additionally, you can utilize `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Arquitetura
 
-## Build
+- **Backend**: Implementado com Node.js, rodando na porta `3333`.
+- **Frontend**: Aplicativo Angular, executado na porta `4200`.
+- **Persistência de Dados**: Utiliza o ORM Prisma para armazenamento em banco de dados.
 
-The command `ng build` is used to build the project. The resulting build artifacts will be stored in the `dist/` directory.
+## Funcionalidades
 
-## Further help
+- **Controle de Estoque**: Gerencia e controla o inventário de produtos.
+- **Arquitetura Modularizada**: Estrutura organizada para fácil manutenção e escalabilidade.
+- **Componentes e Gráficos**: Utiliza PrimeNG e PrimeChart/ChartJs para uma interface rica e interativa.
+- **Formulários Reativos**: Gerencia formulários com validação e controle de estado.
 
-Your sentence is already clear and concise. If you want a slight improvement, you can say:
+## Configuração
 
-For additional assistance with the Angular CLI, use `ng help` or refer to the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. **Instale as Dependências**:
+   - No diretório do projeto, execute `npm install` para instalar todas as dependências do backend e do frontend.
+
+2. **Configure o Banco de Dados**:
+   - Certifique-se de que o banco de dados esteja configurado e acessível.
+   - Configure o Prisma conforme necessário para o seu ambiente.
+
+3. **Inicie o Servidor Backend**:
+   - No diretório do backend, execute `npm start` para iniciar o servidor na porta `3333`.
+
+4. **Inicie o Aplicativo Angular**:
+   - No diretório do frontend, execute `ng serve` para iniciar o aplicativo Angular na porta `4200`.
+
+## Acesso
+
+- **API Backend**: Acessível em `http://localhost:3333`
+- **Aplicativo Frontend**: Acessível em `http://localhost:4200`
